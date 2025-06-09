@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #cc1414;
+  height: 50px;
+}
+
+header {
+  height: 75px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
