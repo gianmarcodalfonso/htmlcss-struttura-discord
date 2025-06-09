@@ -4,15 +4,27 @@
   box-sizing: border-box;
 }
 
+/* utility */
+
+.a-c-center {
+  align-content: center;
+}
+
+.line-h-40 {
+  line-height: 40px;
+}
+
+/* classes  */
+
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
 }
 
 header {
-  height: 75px;
-  background-color: aquamarine;
-  align-content: center;
+  height: 60px;
+  background-color: #ADD8E7;
 }
 
 .border-dash {
@@ -21,13 +33,16 @@ header {
 
 .container#top {
   display: flex;
-  background-color: #cc1414;
-  height: 50px;
+  background-color: #DAA51E;
+  height: 40px;
+}
+
+.box {
+  padding: 0px 10px;
 }
 
 .container#top .logo {
   width: 25%;
-
 }
 
 .container#top .links {
@@ -36,4 +51,16 @@ header {
 
 .container#top .login {
   width: 25%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 5px;
 }
