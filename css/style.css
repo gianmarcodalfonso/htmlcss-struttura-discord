@@ -7,13 +7,33 @@
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  background-color: #cc1414;
-  height: 50px;
 }
 
 header {
   height: 75px;
   background-color: aquamarine;
+  align-content: center;
+}
+
+.border-dash {
+  border: 2px dashed black;
+}
+
+.container#top {
   display: flex;
-  align-items: center;
+  background-color: #cc1414;
+  height: 50px;
+}
+
+.container#top .logo {
+  width: 25%;
+
+}
+
+.container#top .links {
+  width: 50%;
+}
+
+.container#top .login {
+  width: 25%;
 }
