@@ -30,12 +30,36 @@
   background-color: lightgray;
 }
 
+.bg-green {
+  background-color: lightgreen;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-lcoral {
+  background-color: lightcoral;
+}
+
+.bg-amarine {
+  background-color: aquamarine;
+}
+
 .border-dash {
   border: 2px dashed black;
 }
 
+.border-dash-w {
+  border: 2px dashed white;
+}
+
 .padding50-0 {
   padding: 50px 0px;
+}
+
+.padding20-0-50-0 {
+  padding: 20px 0px 50px 0px;
 }
 
 /* classes  */
@@ -110,4 +134,12 @@ header {
 
 .col-40 {
   width: 40%;
+}
+
+.col-16 {
+  width: 16%;
+}
+
+.col-36 {
+  width: 36%;
 }
