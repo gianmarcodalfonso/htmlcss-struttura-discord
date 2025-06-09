@@ -6,6 +6,10 @@
 
 /* utility */
 
+.display-flex {
+  display: flex;
+}
+
 .a-c-center {
   align-content: center;
 }
@@ -22,8 +26,16 @@
   background-color: pink;
 }
 
+.bg-lgrey {
+  background-color: lightgray;
+}
+
 .border-dash {
   border: 2px dashed black;
+}
+
+.padding50-0 {
+  padding: 50px 0px;
 }
 
 /* classes  */
@@ -79,14 +91,23 @@ header {
   margin: 0 5px;
 }
 
-#blue-pink {
-  padding: 50px 0px;
-}
 
 .col-height-400 {
   height: 400px;
 }
 
+.col-height-700 {
+  height: 700px;
+}
+
 .col-100 {
   width: 100%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
 }
